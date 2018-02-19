@@ -1,7 +1,7 @@
 /*
  * File Name: project6.cpp
- * Author: Juan J. Martinez
- * Email Address: mart1316@pnw.edu
+ * Author: Juan
+ * Email Address: XXXXXXXX
  * Assignment Number: Homework 3: Chapter 5, Question 4
  * Description: Program to compute coins to give out for any amount of change
  * Last Changed: February 9, 2018
