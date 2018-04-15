@@ -9,10 +9,10 @@ using namespace std;
 
 void reverseString(char *a);
 //precondition: Takes a cstring by their location
-//postcondition:: calls lastCharIndex() to locate the last character and reverses the string
+//postcondition: Reverses the string
 
 int main() {
-    
+
     char str[101];
     cout << "Type something: ";
     cin.getline(str, 101);
