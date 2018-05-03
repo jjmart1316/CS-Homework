@@ -3,7 +3,7 @@
  * Email Address: mart1316@pnw.edu
  * Assignment Number: Homework 5: Chapter 7, Question 6
  * Description: Insertion sort: This program sorts an array in numerical order
- * Last Changed: March 4, 2018
+ * Last Changed: April 2, 2018
  */
 
 #include <iostream>
@@ -17,7 +17,7 @@ void sort(int arr[], int size) {
         j = i-1;
         while (j >= 0 && arr[j] > x) {
             arr[j+1] = arr[j];
-            j = j - 1;
+            j -= 1;
         }
         arr[j+1] = x;
     }
@@ -33,7 +33,7 @@ void printArray(int arr[], int size) {
 int main() {
 
     int arr[] = {8, 6, 10, 2, 16, 4, 18, 14, 12, 10};
-    int size = sizeof(arr) / sizeof(arr[0]);
+    int size = sizeof(arr) / sizeof(arr[0]);//algorithm provides the size (number of elements) of the array
 
     sort(arr, size);// calls function to sort array in numerical order
     printArray(arr, size);//calls function to print array
